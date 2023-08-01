@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Vivek | Portfolio</title>
+    <link rel="icon" href="/images/logo.jpg">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/styles/style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!-- Fontawsome -->
+    <script src="https://kit.fontawesome.com/846a5b7040.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!-- Header Section starts -->
+    <header>
+        <div class="container">
+            <div class="logo">MJ</div>
+            <nav>
+                <ul>
+                    <a href="#hero"><i class="fa-solid fa-house"></i><li>Home</li></a>
+                    <a href="#About"><i class="fa-solid fa-user"></i><li>About</li></a>
+                    <a href="#Skills"><i class="fa-solid fa-graduation-cap"></i><li>Skills</li></a>
+                    
+                    <a href="#Contact"><i class="fa-solid fa-envelope"></i><li>Contact</li></a>
+                </ul>
+                <img src="/images/moon.png" id="icon" alt="icon">
+
+                <!-- <div class="menu">
+                    <i class="fa-solid fa-bars"></i>
+                </div> -->
+            </nav>
+        </div>
+    </header>
+
+    <!-- Social Section -->
+
+    <div class="social">
+        <a href="https://github.com/Madhanjetti" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/madhan-jetti-7b6b551ba" target="_blank"><i
+                class="fa-brands fa-linkedin"></i></a>
+    </div>
+
+    <!-- Hero Section -->
+
+    <section id="hero">
+        <div class="container">
+            <div class="left-side">
+                <div class="hey">Hello! I am</div>
+                <div class="name">Madhan Kumar Jetti</div>
+                <span class="text"></span>
+
+                <div class="buttons">
+                    <a href="#">Resume</a>
+                    <a href="#Contact" class="contact-btn">Contact Me</a>
+                </div>
+            </div>
+            <div class="image-container">
+                <img src="/images/MERN-Stack.gif" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- About section -->
+    <section id="About">
+        <p class="about-p">All <span class="p-span">About</span> Me</p>
+        <div class="container">
+            <div class="about-text">
+                <p>
+                    Hi there! My name is Madhan and I am a front-end developer. I love to create engaging,
+                    user-friendly websites that provide a seamless experience for visitors.
+                </p>
+                <p>
+                    My skill set includes HTML, CSS, JavaScript, and other related technologies. I stay up-to-date with the latest industry trends and techniques to ensure that the websites I build are not only functional, but also visually appealing and user-friendly.
+                </p>
+                <p>
+                    Thank you for taking the time to learn more about me and my work as a front-end developer. If you are interested in working together or have any questions, please feel free to get in touch!
+                </p>
+                <div class="buttons">
+                    <a href="#Contact">Hire Me</a>
+                    <a href="#Skills" class="contact-btn">Skills</a>
+                </div>
+            </div>
+            <div class="about-img">
+                <div class="image">
+                    <img src="/images/m.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+
+    <section id="Skills">
+        <p class="skills-p">My <span class="p-span">Skills</span></p>
+        <div class="container">
+            <div class="box">
+                <div class="img-box">
+                    <img src="/images/html.png" alt="HTML">
+                </div>
+                <p>HTML</p>
+            </div>
+            <div class="box">
+                <div class="img-box">
+                    <img src="/images/css.png" alt="CSS">
+                </div>
+                <p>CSS</p>
+            </div>
+            <div class="box">
+                <div class="img-box">
+                    <img src="/images/js.png" alt="Js">
+                </div>
+                <p>Javascript</p>
+            </div>
+            <div class="box">
+                <div class="img-box">
+                    <img src="/images/githubColor.png" alt="GitHub">
+                </div>
+                <p>GitHub</p>
+            </div>
+            <div class="box">
+                <div class="img-box">
+                    <img src="/images/java.png" alt="Java">
+                </div>
+                <p>Java</p>
+            </div>
+        </div>
+    </section>
+
+   
+    <section id="Contact">
+        <div class="container">
+            <form action="https://formspree.io/f/xyyanngn" method="POST">
+                <p class="contact-p">Contact Form</p>
+                <div class="input-box">
+                    <input type="text" name="username" placeholder="Enter your name" required autocomplete="off">
+                </div>
+                <div class="input-box">
+                    <input type="email" name="email" placeholder="Enter your email" required autocomplete="off">
+                </div>
+                <div class="textarea-box">
+                    <textarea name="message" placeholder="Write your message here..." required autocomplete="off"></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="/scripts/script.js"></script>
+</body>
+
+</html>
